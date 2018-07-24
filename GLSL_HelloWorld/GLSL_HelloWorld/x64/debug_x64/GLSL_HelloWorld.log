@@ -1,0 +1,24 @@
+﻿빌드 시작: 2018-07-24 오후 3:04:44
+     1>2 노드의 "E:\GitHub\OpenGL\GLSL_HelloWorld\GLSL_HelloWorld\GLSL_HelloWorld.vcxproj" 프로젝트(Build 대상)입니다.
+     1>Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\GitHub\OpenGL\GLSL_HelloWorld\x64\debug_x64\GLSL_HelloWorld.exe" /INCREMENTAL /NOLOGO glfw3dll_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\GitHub\OpenGL\GLSL_HelloWorld\x64\debug_x64\GLSL_HelloWorld.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\GitHub\OpenGL\GLSL_HelloWorld\x64\debug_x64\GLSL_HelloWorld.lib" /MACHINE:X64 x64\debug_x64\GLSL_HelloWorld.obj
+         x64\debug_x64\stdafx.obj
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwInit 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwTerminate 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwSetErrorCallback 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwCreateWindow 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwDestroyWindow 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwWindowShouldClose 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwSetWindowShouldClose 외부 기호(참조 위치: "void __cdecl KeyCallback(struct GLFWwindow *,int,int,int,int)" (?KeyCallback@@YAXPEAUGLFWwindow@@HHHH@Z) 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwSetWindowSizeCallback 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwPollEvents 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwSetKeyCallback 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwMakeContextCurrent 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwSwapBuffers 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>GLSL_HelloWorld.obj : error LNK2019: __imp_glfwSwapInterval 외부 기호(참조 위치: wmain 함수)에서 확인하지 못했습니다.
+     1>E:\GitHub\OpenGL\GLSL_HelloWorld\x64\debug_x64\GLSL_HelloWorld.exe : fatal error LNK1120: 13개의 확인할 수 없는 외부 참조입니다.
+     1>"E:\GitHub\OpenGL\GLSL_HelloWorld\GLSL_HelloWorld\GLSL_HelloWorld.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.17
